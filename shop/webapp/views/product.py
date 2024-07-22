@@ -56,21 +56,20 @@ class ProductAddToBasketView(generic.View):
         quantity = int(request.POST.get('quantity', 1))
         product = get_object_or_404(Product, id=kwargs.get('id'))
 
-        basket_item, created = Basket.objects.get_or_create(product=product)
-
         if product.stock >= quantity:
-            if created:
-                basket_item.quantity = quantity
-            else:
-                if basket_item.quantity + quantity <= product.stock:
-                    basket_item.quantity += quantity
-                else:
-                    basket_item.quantity = product.stock
-        else:
-            basket_item.quantity = product.stock
-            #если количество больше чем остаток то выбирается все со склада#
+            basket_item, created = Basket.objects.get_or_create(product=product)
 
-        basket_item.save()
+            if quantity <= product.stock and quantity > 0:
+                if created:
+                    basket_item.quantity = quantity
+                else:
+                    if basket_item.quantity + quantity <= product.stock:
+                        basket_item.quantity += quantity
+            else:
+                pass
+            
+
+            basket_item.save()
         
         return redirect('products')
     
