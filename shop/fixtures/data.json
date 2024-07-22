@@ -1,0 +1,353 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$260000$QdKRD2lHNcVPnClrQSxG2r$IO7j4wifd22yrKSIi4bRrUWv/kI5Me/iIbbRS0Wj1Dc=",
+        "last_login": "2024-07-22T10:59:43.223Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-07-19T11:04:23.378Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "620t533jjn8cfxb349moczmyxqjgvo82",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlnxb21T0nOGyN7d4ACypTipEHeHSCmgfTPzXmJM21rGrfMyziTOQonT75YTPrjugO6p3prEVtdlznJX5EG7vDbi5-Vw_w5K6uVbO1aTIe3BMGvQAWwGF4lSzDhMEyjw2jDmSBZUCCbaQGi9cxlRu0GL9wfdyDeG:1sUlPv:SfZzyZAgIjzDz21NOtHiXRuU-NMM2tph0ODr_GLNiAk",
+        "expire_date": "2024-08-02T11:04:51.928Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "lavqcjrax2u5j9zlh815asxqpfzqa2rh",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlnxb21T0nOGyN7d4ACypTipEHeHSCmgfTPzXmJM21rGrfMyziTOQonT75YTPrjugO6p3prEVtdlznJX5EG7vDbi5-Vw_w5K6uVbO1aTIe3BMGvQAWwGF4lSzDhMEyjw2jDmSBZUCCbaQGi9cxlRu0GL9wfdyDeG:1sVqlb:TlHZO5WvYE0GB7Jhrdzen3vAwQz2gDePyquVgKnxdcA",
+        "expire_date": "2024-08-05T10:59:43.229Z"
+    }
+},
+{
+    "model": "webapp.product",
+    "pk": 1,
+    "fields": {
+        "name": "Cola",
+        "description": "╧шЄ№",
+        "img_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Tumbler_of_cola_with_ice.jpg/411px-Tumbler_of_cola_with_ice.jpg",
+        "category": "drink",
+        "stock": 3,
+        "price": "100.00"
+    }
+},
+{
+    "model": "webapp.product",
+    "pk": 2,
+    "fields": {
+        "name": "└щЇюэ",
+        "description": "╥хыхЇюэ",
+        "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzhbs4WHAq1C04V27sMhG81uz7TibXBKk5yw&s",
+        "category": "electronics",
+        "stock": 1,
+        "price": "500.00"
+    }
+},
+{
+    "model": "webapp.product",
+    "pk": 3,
+    "fields": {
+        "name": "┴єЁухЁ",
+        "description": "╧юъє°рЄ№",
+        "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlKGmfiK86UU8i69jk4akwX27ocIbnb9vxFA&s",
+        "category": "food",
+        "stock": 3,
+        "price": "50.00"
+    }
+},
+{
+    "model": "webapp.product",
+    "pk": 4,
+    "fields": {
+        "name": "╤эшъхЁё",
+        "description": "╧юъє°рЄ№",
+        "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVtgf-Pavo9xPP8g2pQQpAZzD_F6iX8h9UVQ&s",
+        "category": "food",
+        "stock": 1,
+        "price": "20.00"
+    }
+},
+{
+    "model": "webapp.product",
+    "pk": 5,
+    "fields": {
+        "name": "╧юфє°ър",
+        "description": "╤ярЄ№",
+        "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ697z_Ng8ixuAdYznuJK8J3RePOyliU5ABaQ&s",
+        "category": "other",
+        "stock": 2,
+        "price": "10.00"
+    }
+},
+{
+    "model": "webapp.product",
+    "pk": 7,
+    "fields": {
+        "name": "Red bull",
+        "description": "╧шЄ№",
+        "img_url": "https://simg.marwin.kz/media/catalog/product/cache/41deb699a7fea062a8915debbbb0442c/6/3/napitok_energeticheskiy_250ml_red_bull_6.jpg",
+        "category": "drink",
+        "stock": 2,
+        "price": "25.00"
+    }
+},
+{
+    "model": "webapp.product",
+    "pk": 8,
+    "fields": {
+        "name": "╠рЁьхырф",
+        "description": "┼ёЄ№",
+        "img_url": "https://api.kdvonline.kz/thumbnail/740x494/01/003/1003.png",
+        "category": "other",
+        "stock": 1,
+        "price": "40.00"
+    }
+},
+{
+    "model": "webapp.product",
+    "pk": 10,
+    "fields": {
+        "name": "Apple",
+        "description": "╧юъє°рЄ№",
+        "img_url": "https://i5.walmartimages.com/seo/Fresh-Gala-Apple-Each_f46d4fa7-6108-4450-a610-cc95a1ca28c5_3.38c2c5b2f003a0aafa618f3b4dc3cbbd.jpeg",
+        "category": "food",
+        "stock": 0,
+        "price": "15.00"
+    }
+},
+{
+    "model": "webapp.product",
+    "pk": 11,
+    "fields": {
+        "name": "╧ырэ°хЄ",
+        "description": null,
+        "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzhuq5jkz-0aJPZXW9vc1LwR5ZSTTqtyoOPQ&s",
+        "category": "electronics",
+        "stock": 3,
+        "price": "500.00"
+    }
+},
+{
+    "model": "webapp.order",
+    "pk": 1,
+    "fields": {
+        "user": "admin",
+        "phone_number": "87007899218",
+        "address": "╧є°ъшэр 12",
+        "created_at": "2024-07-22T10:55:50.149Z"
+    }
+},
+{
+    "model": "webapp.order",
+    "pk": 2,
+    "fields": {
+        "user": "qwerty",
+        "phone_number": "87007899218",
+        "address": "╧є°ъшэр 10",
+        "created_at": "2024-07-22T10:57:32.698Z"
+    }
+},
+{
+    "model": "webapp.order",
+    "pk": 3,
+    "fields": {
+        "user": "admin",
+        "phone_number": "87007899218",
+        "address": "╧є°ъшэр 11",
+        "created_at": "2024-07-22T12:11:35.446Z"
+    }
+},
+{
+    "model": "webapp.orderproduct",
+    "pk": 1,
+    "fields": {
+        "order": 1,
+        "product": 4,
+        "quantity": 1
+    }
+},
+{
+    "model": "webapp.orderproduct",
+    "pk": 2,
+    "fields": {
+        "order": 1,
+        "product": 1,
+        "quantity": 1
+    }
+},
+{
+    "model": "webapp.orderproduct",
+    "pk": 3,
+    "fields": {
+        "order": 2,
+        "product": 1,
+        "quantity": 1
+    }
+},
+{
+    "model": "webapp.orderproduct",
+    "pk": 4,
+    "fields": {
+        "order": 3,
+        "product": 10,
+        "quantity": 2
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2024-07-19T11:06:14.421Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "webapp",
+            "product"
+        ],
+        "object_id": "1",
+        "object_repr": "╩юыр",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2024-07-19T11:08:04.200Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "webapp",
+            "product"
+        ],
+        "object_id": "2",
+        "object_repr": "└щЇюэ",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2024-07-19T11:08:53.429Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "webapp",
+            "product"
+        ],
+        "object_id": "3",
+        "object_repr": "┴єЁухЁ",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2024-07-19T11:09:33.961Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "webapp",
+            "product"
+        ],
+        "object_id": "4",
+        "object_repr": "╤эшъхЁё",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2024-07-19T11:10:24.217Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "webapp",
+            "product"
+        ],
+        "object_id": "5",
+        "object_repr": "╧юфє°ър",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2024-07-22T11:00:02.462Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "webapp",
+            "product"
+        ],
+        "object_id": "3",
+        "object_repr": "┴єЁухЁ",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0441\\u0442\\u0430\\u0442\\u043e\\u043a\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2024-07-22T11:00:18.901Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "webapp",
+            "product"
+        ],
+        "object_id": "7",
+        "object_repr": "Red bull",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0441\\u0442\\u0430\\u0442\\u043e\\u043a\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2024-07-22T11:00:26.672Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "webapp",
+            "product"
+        ],
+        "object_id": "1",
+        "object_repr": "Cola",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0441\\u0442\\u0430\\u0442\\u043e\\u043a\"]}}]"
+    }
+}
+]
