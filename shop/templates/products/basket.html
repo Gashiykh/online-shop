@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="container">
+        <h1>Корзина</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Название</th>
+                    <th>Цена</th>
+                    <th>Количество</th>
+                    <th>Сумма</th>
+                    <th>Убрать</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in basket_products %}
+                <tr>
+                    <td>{{ item.product.name }}</td>
+                    <td>{{ item.product.price }}</td>
+                    <td>{{ item.quantity }}</td>
+                    <td>{{ item.sum }}</td>
+                    <td>
+                        <form method="post" action="{% url 'baskets_delete' id=item.id %}">
+                            {% csrf_token %}
+                            <button class="btn btn-danger">Удалить</button>
+                        </form>
+                    </td>
+                </tr>
+                {% empty %}
+                <tr>
+                    <td colspan="5">Ваша корзина пуста</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Итого:</td>
+                    <td>{{ total }}</td>
+                    <td></td>
+                </tr>
+            </tfoot>
+        </table>
+        <h2>Оформить заказ</h2>
+        <form method="post" action="{% url 'orders_create' %}">
+            {% csrf_token %}
+            {% include 'partial/form.html' with request_method='post' btn_text='Оформить заказ' %}
+        </form>
+        <a href="{% url 'products' %}" class="btn btn-primary">Вернуться к товарам</a>
+    </div>
+{% endblock %}
